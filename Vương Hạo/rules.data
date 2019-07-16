@@ -1,0 +1,24 @@
+# list of rules:
+#1	a
+#2	not(a)
+#3	a and b
+#4	a or b
+#5	not(a and b)
+#6	not(a or b)
+#7	not(a) or not(b)
+#8	not(a) and not(b)
+#9	not(a) and b
+#10	not(a) or b
+#11	a or not(b)
+#12	a and not(b)
+#13	a or a
+#15	a and a
+#16	a and (a not b)
+#17	a or (a and b)
+#18	a and (not(a) or b)
+#19	a or (not(a) and b)
+#20	a or (b and c)
+#21	(a or b) and (a or c)
+#22	a and (a or b)
+#23	(a and b) or (a and c)
+### clauses are performed by lower alphabeta ('a'..'z')
